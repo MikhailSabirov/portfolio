@@ -15,7 +15,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && touch build/.nojekyll",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
@@ -42,10 +42,5 @@
   "devDependencies": {
     "gh-pages": "^6.3.0"
   },
-
-"homepage": "https://mikhailsabirov.github.io/portfolio"
-
-  
+  "homepage": "https://mikhailsabirov.github.io/portfolio"
 }
-
-
