@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+ 
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0A0A14;
+}
+
+body{
+ font-family: "JetBrains Mono", monospace;
+}

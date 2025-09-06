@@ -1,0 +1,56 @@
+.header{
+  height: 117px;
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+hr{
+  color:#FFFFFF;
+}
+.header_container{
+  display: flex;
+}
+.logo{
+  font-family: "Just Me Again Down Here", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color: #E0E0E0;
+  font-size: 64px;
+}
+.a_header{
+  color: #E0E0E0;
+  font-size: 27px;
+  font-family: "JetBrains Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none;
+  padding-left: 75px;
+}
+.header_icon{
+  cursor: pointer;
+}
+.banner{
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 130px;
+   pointer-events: none;
+  text-align: center;
+  max-width: 1300px;
+}
+.gradient-text {
+  background: linear-gradient(45deg, #FFD3D3, #B218A7, #DC2285, #A91919);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  display: inline-block;
+}
+span{
+  text-align: center;
+  margin-right: 7px;
+  padding-right: 7px;
+}
